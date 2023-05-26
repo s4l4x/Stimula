@@ -1,3 +1,4 @@
+import * as React from "react";
 import { useState } from "react";
 import { useFrame } from "@react-three/fiber";
 import { Fatline } from "./Fatline";

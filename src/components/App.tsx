@@ -1,3 +1,4 @@
+import * as React from "react";
 import { useState, useRef, ChangeEvent } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Leva } from "leva";
