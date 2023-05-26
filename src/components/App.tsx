@@ -7,8 +7,8 @@ import { AudioAnalyzer } from "../lib/audio-analyzer";
 
 export function App() {
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
-  const audioElmRef = useRef<HTMLAudioElement>(null!);
   const [analyzer, setAnalyzer] = useState<AudioAnalyzer | null>(null);
+  const audioElmRef = useRef<HTMLAudioElement>(null!);
 
   const onFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { OrbitControls } from "@react-three/drei";
-import { useControls, button } from "leva";
+import { useControls } from "leva";
 import { Perf } from "r3f-perf";
 import { Visualizer } from "./Visualizer";
 import { AudioAnalyzer } from "../lib/audio-analyzer";
